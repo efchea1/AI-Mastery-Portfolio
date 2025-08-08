@@ -70,7 +70,7 @@ This portfolio documents my structured learning, projects, and code implementati
 ---
 
 ## 🤝 Connect With Me
-- **LinkedIn:** [linkedin.com/in/emmanuelflechea](https://linkedin.com/in/emmanuelflechea)  
+- **LinkedIn:** [linkedin.com/in/emmanuel-fle-chea](https://www.linkedin.com/in/emmanuel-fle-chea/)  
 - **GitHub:** [github.com/efchea1](https://github.com/efchea1)  
 - **Email:** emmanuelf.chea@gmail.com
 
