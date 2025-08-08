@@ -8,7 +8,7 @@
 ![Stars](https://img.shields.io/github/stars/efchea1/AI-Mastery-Portfolio?style=social)
 
 A **24‑week journey** through AI, Data Science, and Machine Learning — from Python fundamentals to MLOps and real‑world projects.  
-This portfolio documents my structured learning, projects, and code implementations as I build toward becoming an **AI & Data Science expert**.
+This portfolio documents my structured learning, projects, and code implementations as I build toward becoming an **AI & Data Science/Engineer expert**.
 
 ---
 
