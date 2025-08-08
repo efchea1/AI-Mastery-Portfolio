@@ -1,8 +1,8 @@
 # 🚀 AI Mastery Portfolio
 
-![Last Commit](https://img.shields.io/github/last-commit/<your-username>/AI-Mastery-Portfolio?color=blue)
-![Repo Size](https://img.shields.io/github/repo-size/<your-username>/AI-Mastery-Portfolio?color=green)
-![License](https://img.shields.io/github/license/<your-username>/AI-Mastery-Portfolio?color=yellow)
+![Last Commit](https://img.shields.io/github/last-commit/efchea1/AI-Mastery-Portfolio)
+![Repo Size](https://img.shields.io/github/repo-size/efchea1/AI-Mastery-Portfolio)
+![License](https://img.shields.io/github/license/efchea1/AI-Mastery-Portfolio)
 ![Open Issues](https://img.shields.io/github/issues/<your-username>/AI-Mastery-Portfolio?color=red)
 
 This repository documents my **24-week AI learning journey** — covering theory, hands-on projects, and real-world applications in Python, Machine Learning, and Deep Learning.  
@@ -45,10 +45,10 @@ It’s designed so **anyone can follow along, replicate my projects, and build t
 
 
 ### Example - Week 1: Python Basics  
-![Python Basics Preview](https://via.placeholder.com/800x400.png?text=Python+Basics+Screenshot)  
+![Python Basics Preview](https://placehold.co/800x400?text=Python+Basics+Screenshot)  
 
 ### Example - Week 9: CNN Image Classifier  
-![CNN Preview](https://via.placeholder.com/800x400.png?text=Image+Classifier+Preview)  
+![CNN Preview](https://placehold.co/800x400?text=Image+Classifier+Preview)   
 
 ---
 
