@@ -14,10 +14,10 @@ This portfolio documents my structured learning, projects, and code implementati
 
 ## 🧭 Quick Navigation
 
-**Weeks 1–12:**  
+**Weeks 1–12: (August 12 - November 3, 2025)**  
 [Week‑1](Week-1) · [Week‑2](Week-2) · [Week‑3](Week-3) · [Week‑4](Week-4) · [Week‑5](Week-5) · [Week‑6](Week-6) · [Week‑7](Week-7) · [Week‑8](Week-8) · [Week‑9](Week-9) · [Week‑10](Week-10) · [Week‑11](Week-11) · [Week‑12](Week-12)
 
-**Weeks 13–24:**  
+**Weeks 13–24: (November 4, 2025 - January 26, 2026)**  
 [Week‑13](Week-13) · [Week‑14](Week-14) · [Week‑15](Week-15) · [Week‑16](Week-16) · [Week‑17](Week-17) · [Week‑18](Week-18) · [Week‑19](Week-19) · [Week‑20](Week-20) · [Week‑21](Week-21) · [Week‑22](Week-22) · [Week‑23](Week-23) · [Week‑24](Week-24)
 
 ---
