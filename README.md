@@ -24,8 +24,6 @@ This portfolio documents my structured learning, projects, and code implementati
 
 ## 🗺️ Weekly Roadmap
 
-**Status legend:** ⏳ = in progress · ✅ = done
-
 | # | Week | Topic | Folder |
 |---|------|-------|--------|
 | 01 | Python Basics & Env Setup | Core Python, VS Code, Git, venv | [Week-1](Week-1) |
