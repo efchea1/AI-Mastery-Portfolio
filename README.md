@@ -22,36 +22,36 @@ This portfolio documents my structured learning, projects, and code implementati
 
 ---
 
-## 📅 Weekly Roadmap
+## 🗺️ Weekly Roadmap
 
-> **Status legend:** 🔜 = starting soon · ⏳ = in progress · ✅ = done
+**Status legend:** ⏳ = in progress · ✅ = done
 
-| # | Week | Topic | Folder | Preview | Status |
-|---:|:-----|:------|:------|:-------|:------:|
-| 01 | Python Basics | Core Python, Jupyter, Git | [Week‑1](Week-1) | ![W1](https://placehold.co/120x80?text=Week+1) | 🔜 |
-| 02 | Data Analysis | NumPy, Pandas, Cleaning | [Week‑2](Week-2) | ![W2](https://placehold.co/120x80?text=Week+2) | ⏳ |
-| 03 | Visualization | Matplotlib, Seaborn, Plotly | [Week‑3](Week-3) | ![W3](https://placehold.co/120x80?text=Week+3) | ⏳ |
-| 04 | Statistics | Descriptive → Inferential | [Week‑4](Week-4) | ![W4](https://placehold.co/120x80?text=Week+4) | ⏳ |
-| 05 | ML Intro | Linear/Logistic Regression | [Week‑5](Week-5) | ![W5](https://placehold.co/120x80?text=Week+5) | ⏳ |
-| 06 | Classical ML | Trees, Ensembles | [Week‑6](Week-6) | ![W6](https://placehold.co/120x80?text=Week+6) | ⏳ |
-| 07 | Model Eval | Metrics, CV, Tuning | [Week‑7](Week-7) | ![W7](https://placehold.co/120x80?text=Week+7) | ⏳ |
-| 08 | Feature Eng. | Encoding, Scaling | [Week‑8](Week-8) | ![W8](https://placehold.co/120x80?text=Week+8) | ⏳ |
-| 09 | CNNs | Image Classification | [Week‑9](Week-9) | ![W9](https://placehold.co/120x80?text=Week+9) | ⏳ |
-| 10 | NLP Basics | Tokenization, Embeddings | [Week‑10](Week-10) | ![W10](https://placehold.co/120x80?text=Week+10) | ⏳ |
-| 11 | Transfer Learning | Fine‑tuning CNNs | [Week‑11](Week-11) | ![W11](https://placehold.co/120x80?text=Week+11) | ⏳ |
-| 12 | Transformers | BERT, GPT basics | [Week‑12](Week-12) | ![W12](https://placehold.co/120x80?text=Week+12) | ⏳ |
-| 13 | Chatbots | LLM prompting, tools | [Week‑13](Week-13) | ![W13](https://placehold.co/120x80?text=Week+13) | ⏳ |
-| 14 | CV Projects | YOLO, OpenCV | [Week‑14](Week-14) | ![W14](https://placehold.co/120x80?text=Week+14) | ⏳ |
-| 15 | MLOps Basics | Experiment tracking, CI/CD | [Week‑15](Week-15) | ![W15](https://placehold.co/120x80?text=Week+15) | ⏳ |
-| 16 | Deployment | FastAPI/Streamlit, Docker | [Week‑16](Week-16) | ![W16](https://placehold.co/120x80?text=Week+16) | ⏳ |
-| 17 | Data Eng. | ETL, Pipelines | [Week‑17](Week-17) | ![W17](https://placehold.co/120x80?text=Week+17) | ⏳ |
-| 18 | APIs + Integrations | REST, Webhooks | [Week‑18](Week-18) | ![W18](https://placehold.co/120x80?text=Week+18) | ⏳ |
-| 19 | Responsible AI | Bias, Privacy | [Week‑19](Week-19) | ![W19](https://placehold.co/120x80?text=Week+19) | ⏳ |
-| 20 | Project #1 | Real‑world build | [Week‑20](Week-20) | ![W20](https://placehold.co/120x80?text=Week+20) | ⏳ |
-| 21 | Project #2 | Real‑world build | [Week‑21](Week-21) | ![W21](https://placehold.co/120x80?text=Week+21) | ⏳ |
-| 22 | AI for Health | NLP/CV app | [Week‑22](Week-22) | ![W22](https://placehold.co/120x80?text=Week+22) | ⏳ |
-| 23 | Advanced NLP | RAG, Eval | [Week‑23](Week-23) | ![W23](https://placehold.co/120x80?text=Week+23) | ⏳ |
-| 24 | Capstone | End‑to‑end system | [Week‑24](Week-24) | ![W24](https://placehold.co/120x80?text=Week+24) | ⏳ |
+| # | Week | Topic | Folder |
+|---|------|-------|--------|
+| 01 | Python Basics & Env Setup | Core Python, VS Code, Git, venv | [Week-1](Week-1) |
+| 02 | Python Functions & OOP | Functions, classes, errors, file I/O | [Week-2](Week-2) |
+| 03 | SQL Fundamentals | SELECT, JOIN, GROUP BY, agg | [Week-3](Week-3) |
+| 04 | Supabase Basics | Tables, CRUD, REST, auth | [Week-4](Week-4) |
+| 05 | PyTorch Basics | Tensors, DataLoader, training loop | [Week-5](Week-5) |
+| 06 | NLP w/ PyTorch | Tokenization, embeddings, HF | [Week-6](Week-6) |
+| 07 | LangChain Basics | Prompts, chains, agents, memory | [Week-7](Week-7) |
+| 08 | LangChain + Supabase | RAG, vector search, persistence | [Week-8](Week-8) |
+| 09 | JAX Basics | `jit`, `grad`, `vmap`, arrays | [Week-9](Week-9) |
+| 10 | XLA Optimization | compile & speedup training | [Week-10](Week-10) |
+| 11 | JAX + LangChain | pipe JAX models in agents | [Week-11](Week-11) |
+| 12 | Public Health Dashboard | Streamlit/Tableau + explainability | [Week-12](Week-12) |
+| 13 | CUDA Basics | kernels, threads, blocks | [Week-13](Week-13) |
+| 14 | Real‑Time AI | OpenCV + YOLOv8 live | [Week-14](Week-14) |
+| 15 | Backend AI APIs | FastAPI + auth | [Week-15](Week-15) |
+| 16 | Secure Pipeline | logging, encryption, HIPAA basics | [Week-16](Week-16) |
+| 17 | Explainable AI | SHAP/LIME | [Week-17](Week-17) |
+| 18 | Bias & Fairness | fairness metrics & mitigation | [Week-18](Week-18) |
+| 19 | Policy Simulation | LLM policy simulator | [Week-19](Week-19) |
+| 20 | Final Project Polish | refactor, tests, diagrams | [Week-20](Week-20) |
+| 21 | Portfolio & Outreach | portfolio page, writeups | [Week-21](Week-21) |
+| 22 | Portfolio & Outreach (cont’d) | share & applications | [Week-22](Week-22) |
+| 23 | Optional Advanced Project 1 | stretch goal | [Week-23](Week-23) |
+| 24 | Optional Advanced Project 2 | stretch goal | [Week-24](Week-24) |
 
 > Replace previews with real screenshots anytime (e.g., `Week-9/images/preview.png`) and update the image path in this table.
 
