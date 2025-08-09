@@ -116,7 +116,7 @@ This structured plan produces **real-world AI + data science projects** with **p
 
 ---
 
-## 🔑 Professional-Grade Additions
+## 🔑 Professional-Grade
 - **CI/CD:** Automated testing & linting with GitHub Actions  
 - **Docker:** Containerized databases & AI apps  
 - **Testing:** `pytest` + API test suites  
