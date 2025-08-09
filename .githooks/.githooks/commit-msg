@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+# Pass the commit message file path to the updater
+python scripts/update_progress.py "$1" 2>/dev/null || py scripts/update_progress.py "$1"
+# Always allow the commit to proceed
+exit 0 
