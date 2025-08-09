@@ -1,0 +1,42 @@
+name: Update Progress from weeks_status.json
+
+on:
+  push:
+    paths:
+      - "weeks_status.json"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run updater
+        run: |
+          python -m pip install --upgrade pip
+          python - << 'PY'
+          import os, pathlib, subprocess
+          root = pathlib.Path(".")
+          tools = root / "tools"
+          tools.mkdir(exist_ok=True)
+          # ensure script exists (in case you haven't pushed it yet)
+          PY
+
+          # Run the actual script
+          python tools/update_progress.py
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(progress): auto-update README from weeks_status.json ✅"
+          file_pattern: README.md 
