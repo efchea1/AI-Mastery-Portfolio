@@ -60,6 +60,7 @@ This structured plan produces **real-world AI + data science projects** with **p
 ---
 
 ## 📅 Month 1 – Foundations, Math & Setup (Weeks 1–4)  
+**Goal:** Build strong Python + SQL fundamentals, refresh math/stats, and set up dev environment for reproducibility.
 
 | Week | Focus | Key Learning | Project | Dataset | Link |
 |------|-------|--------------|---------|---------|------|
@@ -71,6 +72,7 @@ This structured plan produces **real-world AI + data science projects** with **p
 ---
 
 ## 📅 Month 2 – Core AI + CI/CD (Weeks 5–8)  
+**Goal:** Build AI models, learn automation pipelines, and add reproducibility.
 
 | Week | Focus | Key Learning | Project | Dataset | Link |
 |------|-------|--------------|---------|---------|------|
@@ -82,6 +84,7 @@ This structured plan produces **real-world AI + data science projects** with **p
 ---
 
 ## 📅 Month 3 – Advanced AI, Stats & Collaboration (Weeks 9–12)  
+**Goal:** Learn JAX/XLA, improve statistical depth, and simulate team collaboration.
 
 | Week | Focus | Key Learning | Project | Dataset | Link |
 |------|-------|--------------|---------|---------|------|
@@ -93,6 +96,7 @@ This structured plan produces **real-world AI + data science projects** with **p
 ---
 
 ## 📅 Month 4 – Infrastructure, MLOps & Compliance (Weeks 13–16)  
+**Goal:** Learn GPU programming, scalable APIs, compliance, and monitoring.
 
 | Week | Focus | Key Learning | Project | Dataset | Link |
 |------|-------|--------------|---------|---------|------|
@@ -104,6 +108,7 @@ This structured plan produces **real-world AI + data science projects** with **p
 ---
 
 ## 📅 Month 5 – Ethics, Explainability & Portfolio (Weeks 17–22)  
+**Goal:** Build responsible AI systems & finalize portfolio.
 
 | Week | Focus | Key Learning | Project | Dataset | Link |
 |------|-------|--------------|---------|---------|------|

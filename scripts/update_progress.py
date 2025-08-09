@@ -1,59 +1,144 @@
-import re, sys, pathlib
+#!/usr/bin/env python3
+"""
+Update the Progress Tracker table in README.md.
 
-ROOT = pathlib.Path(__file__).resolve().parents[1]
-readme = ROOT / "README.md"
+Modes:
+  - json   : read statuses from weeks_status.json
+  - commit : parse last commit message like 'week-7: done' or 'week 3: start'
 
-# map from status keyword to table text
-STATUS = {
-    "not-started": "⬜ Not Started",
-    "in-progress": "🟨 In Progress",
-    "done": "✅ Completed",
+Examples:
+  python scripts/update_progress.py --mode json --status weeks_status.json --readme README.md
+  python scripts/update_progress.py --mode commit --readme README.md
+"""
+
+from __future__ import annotations
+import argparse, json, os, re, subprocess
+from pathlib import Path
+from typing import Dict
+
+# Normalized status keywords -> rendered text
+RENDER = {
+    "not_started": "⬜ Not Started",
+    "in_progress": "🟨 In Progress",
+    "done":        "✅ Completed",
 }
 
-def parse_commit_message(msg_path: pathlib.Path):
-    text = msg_path.read_text(encoding="utf-8", errors="ignore")
-    m_week = re.search(r"\[week-(\d{1,2})\]", text, re.IGNORECASE)
-    m_status = re.search(r"status\s*:\s*(not-started|in-progress|done)", text, re.IGNORECASE)
-    if not (m_week and m_status):
-        return None, None
-    week = int(m_week.group(1))
-    status_key = m_status.group(1).lower()
-    return week, status_key
+VALID = set(RENDER.keys())
 
-def update_table(week: int, status_key: str):
-    content = readme.read_text(encoding="utf-8")
-    start = content.find("<!-- PROGRESS_TABLE_START -->")
-    end   = content.find("<!-- PROGRESS_TABLE_END -->")
-    if start == -1 or end == -1:
-        print("Progress markers not found; skipping.")
-        return False
+# Regex that finds the Progress Tracker rows that begin with '|  1', '|  2', ... '| 22'
+ROW_RE = re.compile(r'^\|\s*(\d{1,2})\s*\|', re.M)
 
-    table = content[start:end]
-    # pattern to match a row starting with | <week> |
-    row_re = re.compile(rf"(\|\s*{week}\s*\|\s*[^|]*\|\s*)([^|]*)(\s*\|)", re.MULTILINE)
-    if not row_re.search(table):
-        print(f"Week {week} row not found; skipping.")
-        return False
+def load_status_from_json(path: Path) -> Dict[int, str]:
+    data = json.loads(path.read_text(encoding="utf-8"))
+    out: Dict[int, str] = {}
+    for k, v in data.items():
+        try:
+            wk = int(k)
+        except ValueError:
+            continue
+        norm = v.strip().lower().replace(" ", "_")
+        if norm in VALID:
+            out[wk] = norm
+    return out
 
-    new_table = row_re.sub(rf"\1{STATUS[status_key]}\3", table)
-    new_content = content[:start] + new_table + content[end:]
-    if new_content != content:
-        readme.write_text(new_content, encoding="utf-8")
-        print(f"Updated Week {week} → {STATUS[status_key]}")
-        return True
-    return False
+def parse_status_from_commit() -> Dict[int, str]:
+    """
+    Parse last commit message for tokens like:
+      week-7: done
+      week 3: in_progress
+      week12 done
+    """
+    try:
+        msg = subprocess.check_output(["git", "log", "-1", "--pretty=%B"], text=True).strip()
+    except Exception:
+        msg = ""
+    statuses: Dict[int, str] = {}
+    # accept 'week-7', 'week 7', 'wk7', 'w7'
+    wk_re = re.compile(r'\b(?:week|wk|w)[\s\-]*(\d{1,2})\b', re.I)
+    # accept ': done', '-> in progress', 'start', 'progress', 'done'
+    status_re = re.compile(r'\b(done|complete|completed|in[_\-\s]?progress|start|started|not[_\-\s]?started)\b', re.I)
+
+    # Try to map the first status keyword that appears after each week mention
+    tokens = msg.splitlines()
+    for line in tokens:
+        weeks = wk_re.findall(line)
+        st = status_re.search(line)
+        if not weeks or not st:
+            continue
+        raw = st.group(1).lower().replace("-", "_").replace(" ", "_")
+        if raw in ("completed", "complete"):
+            norm = "done"
+        elif raw in ("start", "started"):
+            norm = "in_progress"   # starting implies in_progress
+        elif raw in ("not_started",):
+            norm = "not_started"
+        elif raw in ("in_progress",):
+            norm = "in_progress"
+        elif raw in ("done",):
+            norm = "done"
+        else:
+            continue
+        for w in weeks:
+            try:
+                wk = int(w)
+                statuses[wk] = norm
+            except ValueError:
+                pass
+    return statuses
+
+def replace_table(readme_text: str, updates: Dict[int, str]) -> str:
+    """
+    Replace the Status column for any week numbers present in `updates`.
+    Assumes the table has rows like:
+      | 1 | Python Basics ... | ⬜ Not Started |
+    We split each matching row on '|' and replace the last cell with rendered text.
+    """
+    lines = readme_text.splitlines()
+    for i, line in enumerate(lines):
+        m = ROW_RE.match(line)
+        if not m:
+            continue
+        wk = int(m.group(1))
+        if wk not in updates:
+            continue
+        # split cells, keep leading/trailing pipes
+        parts = [p.strip() for p in line.split("|")]
+        # Expected minimal columns: ['', '1', 'Week title', 'Status', '']
+        if len(parts) < 4:
+            continue
+        # Status is the penultimate non-empty cell (usually index -2)
+        parts[-2] = RENDER[updates[wk]]
+        # Rebuild line with single spaces around pipes
+        new_line = " | ".join(parts)
+        lines[i] = new_line
+    return "\n".join(lines) + ("\n" if not readme_text.endswith("\n") else "")
 
 def main():
-    if len(sys.argv) < 2:
-        sys.exit(0)
-    msg_path = pathlib.Path(sys.argv[1])
-    week, status_key = parse_commit_message(msg_path)
-    if week is None:
-        print("No [week-NN] or status:... found; no progress update.")
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--mode", choices=["json", "commit"], required=True)
+    ap.add_argument("--status", type=Path, help="Path to weeks_status.json (json mode)")
+    ap.add_argument("--readme", type=Path, default=Path("README.md"))
+    args = ap.parse_args()
+
+    if args.mode == "json":
+        if not args.status or not args.status.exists():
+            raise SystemExit("weeks_status.json not found — pass --status path")
+        updates = load_status_from_json(args.status)
+    else:
+        updates = parse_status_from_commit()
+
+    if not updates:
+        print("No status updates detected. Exiting.")
         return
-    updated = update_table(week, status_key)
-    if not updated:
-        print("No changes applied.")
+
+    rdme_text = args.readme.read_text(encoding="utf-8")
+    new_text = replace_table(rdme_text, updates)
+
+    if new_text != rdme_text:
+        args.readme.write_text(new_text, encoding="utf-8")
+        print("README updated.")
+    else:
+        print("README already up to date.")
 
 if __name__ == "__main__":
-    main()
+    main() 
