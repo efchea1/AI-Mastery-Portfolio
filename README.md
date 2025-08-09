@@ -11,7 +11,7 @@
 ![Last Updated](https://img.shields.io/github/last-commit/efchea1/AI-Mastery-Portfolio)
 
 📅 **Start Date:** Monday, August 12, 2025  
-📅 **End Date:** Friday, January 16, 2026  
+📅 **End Date:** Friday, January 26, 2026  
 ⏱ **Time Commitment:** ~3 hrs/day, 5 days/week & ~4 hrs on the weekend 
 
 This structured plan produces **real-world AI + data science projects** with **production-grade code** while preparing you for **both startup and enterprise hiring**. 
