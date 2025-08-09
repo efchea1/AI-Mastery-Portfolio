@@ -71,7 +71,7 @@ AI-Mastery-Portfolio/
 4) Keep datasets in `data/` (excluded from Git).
 
 ## 🤝 Connect
-- **LinkedIn:** https://linkedin.com/in/emmanuelflechea  
+- **LinkedIn:** https://linkedin.com/in/emmanuel-fle-chea  
 - **GitHub:** https://github.com/efchea1  
 - **Email:** emmanuelf.chea@gmail.com
 
