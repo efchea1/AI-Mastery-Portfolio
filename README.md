@@ -12,7 +12,7 @@
 
 📅 **Start Date:** Monday, August 12, 2025  
 📅 **End Date:** Friday, January 16, 2026  
-⏱ **Time Commitment:** ~2 hrs/day, 5 days/week  
+⏱ **Time Commitment:** ~2 hrs/day, 5 days/week & ~4 hrs on the weekend 
 
 This structured plan produces **real-world AI + data science projects** with **production-grade code** while preparing you for **both startup and enterprise hiring**. 
 
