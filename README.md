@@ -32,28 +32,28 @@ This structured plan produces **real-world AI + data science projects** with **p
 <!-- PROGRESS_TABLE_START -->
 | Week | Focus | Status |
 |------|-------|--------|
-| 1 | Python Basics, Git, Environment Setup | ⬜ Not Started |
-| 2 | Python Functions, OOP, Testing | ⬜ Not Started |
-| 3 | SQL Fundamentals | ⬜ Not Started |
-| 4 | Supabase Basics + Math Refresh | ⬜ Not Started |
-| 5 | PyTorch Basics + CI/CD | ⬜ Not Started |
-| 6 | NLP with PyTorch + Metrics | ⬜ Not Started |
-| 7 | LangChain Basics | ⬜ Not Started |
-| 8 | LangChain + Supabase + Docker | ⬜ Not Started |
-| 9 | JAX Basics + Stats | ⬜ Not Started |
-| 10 | XLA Optimization | ⬜ Not Started |
-| 11 | JAX + LangChain Integration (Collab) | ⬜ Not Started |
-| 12 | Public Health Dashboard | ⬜ Not Started |
-| 13 | CUDA Basics | ⬜ Not Started |
-| 14 | Real-Time AI | ⬜ Not Started |
-| 15 | Backend AI APIs + API Tests | ⬜ Not Started |
-| 16 | Secure Pipeline + Monitoring | ⬜ Not Started |
-| 17 | Explainable AI | ⬜ Not Started |
-| 18 | Bias & Fairness | ⬜ Not Started |
-| 19 | Policy Simulation | ⬜ Not Started |
-| 20 | Final Project Polish | ⬜ Not Started |
-| 21 | Portfolio Website | ⬜ Not Started |
-| 22 | Outreach & Applications | ⬜ Not Started |
+ | 1 | Python Basics, Git, Environment Setup | ⬜ Not Started | 
+ | 2 | Python Functions, OOP, Testing | ⬜ Not Started | 
+ | 3 | SQL Fundamentals | ⬜ Not Started | 
+ | 4 | Supabase Basics + Math Refresh | ⬜ Not Started | 
+ | 5 | PyTorch Basics + CI/CD | ⬜ Not Started | 
+ | 6 | NLP with PyTorch + Metrics | ⬜ Not Started | 
+ | 7 | LangChain Basics | ⬜ Not Started | 
+ | 8 | LangChain + Supabase + Docker | ⬜ Not Started | 
+ | 9 | JAX Basics + Stats | ⬜ Not Started | 
+ | 10 | XLA Optimization | ⬜ Not Started | 
+ | 11 | JAX + LangChain Integration (Collab) | ⬜ Not Started | 
+ | 12 | Public Health Dashboard | ⬜ Not Started | 
+ | 13 | CUDA Basics | ⬜ Not Started | 
+ | 14 | Real-Time AI | ⬜ Not Started | 
+ | 15 | Backend AI APIs + API Tests | ⬜ Not Started | 
+ | 16 | Secure Pipeline + Monitoring | ⬜ Not Started | 
+ | 17 | Explainable AI | ⬜ Not Started | 
+ | 18 | Bias & Fairness | ⬜ Not Started | 
+ | 19 | Policy Simulation | ⬜ Not Started | 
+ | 20 | Final Project Polish | ⬜ Not Started | 
+ | 21 | Portfolio Website | ⬜ Not Started | 
+ | 22 | Outreach & Applications | ⬜ Not Started | 
 
 > **Legend:** ✅ Completed 🟨 In Progress ⬜ Not Started
 
@@ -64,10 +64,10 @@ This structured plan produces **real-world AI + data science projects** with **p
 
 | Week | Focus | Key Learning | Project | Dataset | Link |
 |------|-------|--------------|---------|---------|------|
-| 1 | Python Basics, Git, Environment Setup | Syntax, loops, functions, `.venv` | Health Metrics Calculator | CDC Nutrition Data | 🔗 [Repo](#) |
-| 2 | Python Functions, OOP, Testing | Classes, error handling, `pytest` | Patient Intake CLI App | Synthea Synthetic Patients | 🔗 [Repo](#) |
-| 3 | SQL Fundamentals | SELECT, JOIN, GROUP BY, Dockerized Postgres | Chronic Disease SQL Analysis | CDC Chronic Disease Indicators | 🔗 [Repo](#) |
-| 4 | Supabase Basics + Math Refresh | CRUD ops, probability, distributions | Supabase Health Tracker | CDC BRFSS | 🔗 [Repo](#) |
+ | 1 | Python Basics, Git, Environment Setup | Syntax, loops, functions, `.venv` | Health Metrics Calculator | CDC Nutrition Data | ⬜ Not Started | 
+ | 2 | Python Functions, OOP, Testing | Classes, error handling, `pytest` | Patient Intake CLI App | Synthea Synthetic Patients | ⬜ Not Started | 
+ | 3 | SQL Fundamentals | SELECT, JOIN, GROUP BY, Dockerized Postgres | Chronic Disease SQL Analysis | CDC Chronic Disease Indicators | ⬜ Not Started | 
+ | 4 | Supabase Basics + Math Refresh | CRUD ops, probability, distributions | Supabase Health Tracker | CDC BRFSS | ⬜ Not Started | 
 
 ---
 
@@ -76,10 +76,10 @@ This structured plan produces **real-world AI + data science projects** with **p
 
 | Week | Focus | Key Learning | Project | Dataset | Link |
 |------|-------|--------------|---------|---------|------|
-| 5 | PyTorch Basics | Tensors, DataLoader, CNNs | Skin Lesion Classifier | HAM10000 | 🔗 [Repo](#) |
-| 6 | NLP with PyTorch | Tokenization, Transformers | Mental Health Sentiment Analyzer | Mental Health in Tech Survey + Twitter API | 🔗 [Repo](#) |
-| 7 | LangChain Basics | Prompt templates, memory | Public Health Q&A Bot | CDC FAQ pages | 🔗 [Repo](#) |
-| 8 | LangChain + Supabase + Docker | RAG workflows, containerization | Voice Agent with Memory | CDC BRFSS | 🔗 [Repo](#) |
+ | 5 | PyTorch Basics | Tensors, DataLoader, CNNs | Skin Lesion Classifier | HAM10000 | ⬜ Not Started | 
+ | 6 | NLP with PyTorch | Tokenization, Transformers | Mental Health Sentiment Analyzer | Mental Health in Tech Survey + Twitter API | ⬜ Not Started | 
+ | 7 | LangChain Basics | Prompt templates, memory | Public Health Q&A Bot | CDC FAQ pages | ⬜ Not Started | 
+ | 8 | LangChain + Supabase + Docker | RAG workflows, containerization | Voice Agent with Memory | CDC BRFSS | ⬜ Not Started | 
 
 ---
 
@@ -88,10 +88,10 @@ This structured plan produces **real-world AI + data science projects** with **p
 
 | Week | Focus | Key Learning | Project | Dataset | Link |
 |------|-------|--------------|---------|---------|------|
-| 9 | JAX Basics + Stats | Arrays, grad, jit, hypothesis testing | JAX Skin Classifier | HAM10000 | 🔗 [Repo](#) |
-| 10 | XLA Optimization | Model compilation & benchmarking | JAX vs PyTorch Benchmark | HAM10000 | 🔗 [Repo](#) |
-| 11 | JAX + LangChain Integration | Custom model workflows | Truth-Seeking LLM Evaluator | CDC/WHO Data | 🔗 [Repo](#) |
-| 12 | Public Health Dashboard | Streamlit/Tableau | Explainable AI Dashboard | County Health Rankings | 🔗 [Repo](#) |
+ | 9 | JAX Basics + Stats | Arrays, grad, jit, hypothesis testing | JAX Skin Classifier | HAM10000 | ⬜ Not Started | 
+ | 10 | XLA Optimization | Model compilation & benchmarking | JAX vs PyTorch Benchmark | HAM10000 | ⬜ Not Started | 
+ | 11 | JAX + LangChain Integration | Custom model workflows | Truth-Seeking LLM Evaluator | CDC/WHO Data | ⬜ Not Started | 
+ | 12 | Public Health Dashboard | Streamlit/Tableau | Explainable AI Dashboard | County Health Rankings | ⬜ Not Started | 
 
 ---
 
@@ -100,10 +100,10 @@ This structured plan produces **real-world AI + data science projects** with **p
 
 | Week | Focus | Key Learning | Project | Dataset | Link |
 |------|-------|--------------|---------|---------|------|
-| 13 | CUDA Basics | Writing GPU kernels | CUDA Image Filter | NIH Chest X-ray | 🔗 [Repo](#) |
-| 14 | Real-Time AI | OpenCV + YOLOv8 | Mask Detection System | Face Mask Detection | 🔗 [Repo](#) |
-| 15 | Backend AI APIs | FastAPI, API auth, API testing | Health Data API | Supabase + FDA FAERS | 🔗 [Repo](#) |
-| 16 | Secure Pipeline | HIPAA, logging, monitoring | Compliance-Enabled API | FDA FAERS | 🔗 [Repo](#) |
+ | 13 | CUDA Basics | Writing GPU kernels | CUDA Image Filter | NIH Chest X-ray | ⬜ Not Started | 
+ | 14 | Real-Time AI | OpenCV + YOLOv8 | Mask Detection System | Face Mask Detection | ⬜ Not Started | 
+ | 15 | Backend AI APIs | FastAPI, API auth, API testing | Health Data API | Supabase + FDA FAERS | ⬜ Not Started | 
+ | 16 | Secure Pipeline | HIPAA, logging, monitoring | Compliance-Enabled API | FDA FAERS | ⬜ Not Started | 
 
 ---
 
@@ -112,12 +112,12 @@ This structured plan produces **real-world AI + data science projects** with **p
 
 | Week | Focus | Key Learning | Project | Dataset | Link |
 |------|-------|--------------|---------|---------|------|
-| 17 | Explainable AI | SHAP, LIME | Diabetes Risk Model Explainability | Pima Indians Diabetes | 🔗 [Repo](#) |
-| 18 | Bias & Fairness | Bias metrics, mitigation | Audit NLP Model for Bias | MIMIC-III | 🔗 [Repo](#) |
-| 19 | Policy Simulation | LLM policy modeling | Liberia Policy Simulator | DHS Liberia + WHO GHO | 🔗 [Repo](#) |
-| 20 | Final Project Polish | Documentation, benchmarking | — | — | — |
-| 21 | Portfolio Website | GitHub Pages / personal site | Live project demos | — | 🔗 [Site](#) |
-| 22 | Outreach & Applications | LinkedIn + GitHub publishing | — | — | — |
+ | 17 | Explainable AI | SHAP, LIME | Diabetes Risk Model Explainability | Pima Indians Diabetes | ⬜ Not Started | 
+ | 18 | Bias & Fairness | Bias metrics, mitigation | Audit NLP Model for Bias | MIMIC-III | ⬜ Not Started | 
+ | 19 | Policy Simulation | LLM policy modeling | Liberia Policy Simulator | DHS Liberia + WHO GHO | ⬜ Not Started | 
+ | 20 | Final Project Polish | Documentation, benchmarking | — | — | ⬜ Not Started | 
+ | 21 | Portfolio Website | GitHub Pages / personal site | Live project demos | — | ⬜ Not Started | 
+ | 22 | Outreach & Applications | LinkedIn + GitHub publishing | — | — | ⬜ Not Started | 
 
 ---
 
