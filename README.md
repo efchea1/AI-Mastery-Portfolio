@@ -1,6 +1,5 @@
-# 🚀 AI Mastery Portfolio (Aug 2025 → Jan 2026)
+# 🚀 22-Week AI Mastery & Portfolio (Aug 2025 → Jan 2026)
 
-# 🚀 22-Week AI Mastery & Portfolio Plan  
 **Upgraded for Job Readiness**  
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)  
 ![PyTorch](https://img.shields.io/badge/PyTorch-Framework-orange?logo=pytorch)  
