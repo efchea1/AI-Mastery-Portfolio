@@ -1,0 +1,9 @@
+[week-<NN>] status:<not-started|in-progress|done>
+summary: <what changed>
+
+# Examples:
+# [week-01] status:in-progress
+# summary: set up .venv, added requirements, scaffolded notebooks
+#
+# [week-05] status:done
+# summary: finished CNN baseline + evaluation; pushed results + README 
