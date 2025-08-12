@@ -24,4 +24,4 @@ This week solidified my workflow for reproducible data science projects:
 - Clear project structure with organized directories for data, notebooks, and scripts.  
 - Practical use of Matplotlib for health-related visualizations.  
 
-These foundations—version control hygiene, reproducible Python environments, and basic plotting—set the stage for Week 2, where I will expand into **Python functions, classes, file I/O, and automated testing**. The upcoming project, a **Patient Intake CLI App** using synthetic patient data, will directly build on Week 1 by incorporating structured code design, persistent storage, and enhanced reliability through unit testing.
+These foundations, version control hygiene, reproducible Python environments, and basic plotting—set the stage for Week 2, where I will expand into **Python functions, classes, file I/O, and automated testing**. The upcoming project, a **Patient Intake CLI App** using synthetic patient data, will directly build on Week 1 by incorporating structured code design, persistent storage, and enhanced reliability through unit testing.
