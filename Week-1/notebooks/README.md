@@ -1,6 +1,6 @@
 # Week 1 — Python Basics & Environment Setup
 
-## Goal
+### Goal
 Set up a clean Python dev env; build a small CLI that computes BMI, BMR, and water intake; and analyze CDC BMI data in a notebook.
 
 ## Setup
