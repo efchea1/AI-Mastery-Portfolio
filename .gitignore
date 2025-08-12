@@ -201,3 +201,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# keep the big CDC CSV out of GitHub
+Week-1/data/*.csv
+!Week-1/data/week1_results.csv
