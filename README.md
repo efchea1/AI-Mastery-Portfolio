@@ -31,7 +31,7 @@ This structured plan produces **real-world AI + data science projects** with **p
 <!-- PROGRESS_TABLE_START -->
 | Week | Focus | Status |
 |------|-------|--------|
- | 1 | Python Basics, Git, Environment Setup | 🟨 In Progress | 
+ | 1 | Python Basics, Git, Environment Setup | ✅ Completed | 
  | 2 | Python Functions, OOP, Testing | ⬜ Not Started | 
  | 3 | SQL Fundamentals | ⬜ Not Started | 
  | 4 | Supabase Basics + Math Refresh | ⬜ Not Started | 
@@ -64,7 +64,7 @@ This structured plan produces **real-world AI + data science projects** with **p
 
 | Week | Focus | Key Learning | Project | Dataset | Link |
 |------|-------|--------------|---------|---------|------|
- | 1 | Python Basics, Git, Environment Setup | Syntax, loops, functions, `.venv` | Health Metrics Calculator | CDC Nutrition Data | ⬜ Not Started | 
+ | 1 | Python Basics, Git, Environment Setup | Syntax, loops, functions, `.venv` | Health Metrics Calculator | CDC Nutrition Data | ✅ [Folder](Week-1/) · [Reflection](Week-1/REFLECTION.md) | 
  | 2 | Python Functions, OOP, Testing | Classes, error handling, `pytest` | Patient Intake CLI App | Synthea Synthetic Patients | ⬜ Not Started | 
  | 3 | SQL Fundamentals | SELECT, JOIN, GROUP BY, Dockerized Postgres | Chronic Disease SQL Analysis | CDC Chronic Disease Indicators | ⬜ Not Started | 
  | 4 | Supabase Basics + Math Refresh | CRUD ops, probability, distributions | Supabase Health Tracker | CDC BRFSS | ⬜ Not Started | 
