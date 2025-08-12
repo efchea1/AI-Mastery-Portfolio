@@ -1,30 +1,20 @@
-# Week 1 – Python Basics & Environment Setup
+# Week 1 — Python Basics & Environment Setup
 
-**Dates:** _(fill in)_  
-**Status:** 🔜 Not started · ⏳ In progress · ✅ Completed
+**Status:** ✅ Completed  
+**Dates:** Aug 12–16, 2025
 
 ## 🎯 Goals
-- Core Python, VS Code, Git/GitHub, virtual environments
+- Practice Python fundamentals (functions, I/O, conditionals)
+- Build a **BMI / BMR / Hydration** CLI
+- Log results to CSV and explore CDC BMI-related data in a notebook
 
-## 📚 Learn
-- Core Python, VS Code, Git/GitHub, virtual environments
+## 🗂 What’s in this folder
+- **`src/health_metrics.py`** — CLI app (metric/imperial) that saves runs to `data/week1_results.csv`
+- **`notebooks/Week1_CDC_BMI_Analysis.ipynb`** — CDC BMI exploration + compare with my BMI
+- **`data/week1_results.csv`** — small run log (kept in Git); big CDC CSV is *not* tracked
 
-## 🧪 Project
-**Health Metrics Calculator — BMI/BMR/Hydration**  
-**Dataset:** CDC Nutrition Data
-
-## 📓 Notebooks
-| Notebook | Description |
-|---|---|
-| _(add)_ | _(what it does)_ |
-
-## 🗂️ Code
-- `src/` for Python modules and scripts
-- `notebooks/` for experiments
-- `data/` for datasets (git‑ignored)
-
-## 🔗 Resources
-- _(add links: docs, videos, courses)_
-
-## 📊 Results & Notes
-- _(screenshots, metrics, reflections)_
+## ▶️ How to run
+```bash
+# from repo root
+python Week-1/src/health_metrics.py
+# then open the notebook and Run All 
