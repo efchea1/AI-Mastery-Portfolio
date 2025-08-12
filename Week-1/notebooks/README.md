@@ -13,6 +13,11 @@ python -m venv .venv
 pip install -r requirements.txt
 pre-commit install
 
+## 📊 Results & Notes
+- Saved personal BMI/BMR results to `data/week1_results.csv` for reproducibility.
+- Generated Matplotlib visualizations comparing my BMI to Minnesota’s CDC BMI averages.
+- Final outputs and plots are documented in the [Week 1 Reflection](REFLECTION.md).
+
 ## 🖼️ Screenshots
 <p align="center">
   <img src="assets/cli_output.png" alt="CLI output" width="520">
@@ -22,4 +27,8 @@ pre-commit install
 ## 🔗 Resources used
 - FreeCodeCamp Python (YouTube)  
 - W3Schools Python (reference)  
-- Python for Everybody (Coursera – audit)
+- Python for Everybody (Coursera – audit)  
+
+---
+
+🔄 **Next Steps:** Moving into [Week 2](../Week-2) to expand these concepts into **functions, OOP, file I/O, and automated testing** using `pytest`.
