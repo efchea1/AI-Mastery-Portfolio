@@ -205,3 +205,33 @@ __marimo__/
 # keep the big CDC CSV out of GitHub
 Week-1/data/*.csv
 !Week-1/data/week1_results.csv
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Allow any Python version file to be ignored (pyenv etc.)
+.python-version
+
+# Local executables or installers accidentally dropped in the repo
+*.exe
+*.msi
+
+# Keep large/week data out of Git for every week, but keep tiny results logs
+Week-*/data/*.csv
+Week-*/data/*.parquet
+Week-*/data/*.xlsx
+Week-*/data/*.json
+# Keep the small logs and docs
+!Week-*/data/week*_results.csv
+!Week-*/data/README.md
+!Week-*/data/.gitkeep
+
+# If you ever keep raw exports in a top-level data/ folder (future-proof)
+data/**/*.csv
+data/**/*.parquet
+data/**/*.xlsx
+data/**/*.json
+!data/**/README.md
+!data/**/.gitkeep
