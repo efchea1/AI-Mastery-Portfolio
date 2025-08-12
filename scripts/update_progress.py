@@ -12,7 +12,11 @@ Examples:
 """
 
 from __future__ import annotations
-import argparse, json, os, re, subprocess
+
+import argparse
+import json
+import re
+import subprocess
 from pathlib import Path
 from typing import Dict
 
@@ -20,13 +24,14 @@ from typing import Dict
 RENDER = {
     "not_started": "⬜ Not Started",
     "in_progress": "🟨 In Progress",
-    "done":        "✅ Completed",
+    "done": "✅ Completed",
 }
 
 VALID = set(RENDER.keys())
 
 # Regex that finds the Progress Tracker rows that begin with '|  1', '|  2', ... '| 22'
-ROW_RE = re.compile(r'^\|\s*(\d{1,2})\s*\|', re.M)
+ROW_RE = re.compile(r"^\|\s*(\d{1,2})\s*\|", re.M)
+
 
 def load_status_from_json(path: Path) -> Dict[int, str]:
     data = json.loads(path.read_text(encoding="utf-8"))
@@ -41,6 +46,7 @@ def load_status_from_json(path: Path) -> Dict[int, str]:
             out[wk] = norm
     return out
 
+
 def parse_status_from_commit() -> Dict[int, str]:
     """
     Parse last commit message for tokens like:
@@ -54,9 +60,11 @@ def parse_status_from_commit() -> Dict[int, str]:
         msg = ""
     statuses: Dict[int, str] = {}
     # accept 'week-7', 'week 7', 'wk7', 'w7'
-    wk_re = re.compile(r'\b(?:week|wk|w)[\s\-]*(\d{1,2})\b', re.I)
+    wk_re = re.compile(r"\b(?:week|wk|w)[\s\-]*(\d{1,2})\b", re.I)
     # accept ': done', '-> in progress', 'start', 'progress', 'done'
-    status_re = re.compile(r'\b(done|complete|completed|in[_\-\s]?progress|start|started|not[_\-\s]?started)\b', re.I)
+    status_re = re.compile(
+        r"\b(done|complete|completed|in[_\-\s]?progress|start|started|not[_\-\s]?started)\b", re.I
+    )
 
     # Try to map the first status keyword that appears after each week mention
     tokens = msg.splitlines()
@@ -69,7 +77,7 @@ def parse_status_from_commit() -> Dict[int, str]:
         if raw in ("completed", "complete"):
             norm = "done"
         elif raw in ("start", "started"):
-            norm = "in_progress"   # starting implies in_progress
+            norm = "in_progress"  # starting implies in_progress
         elif raw in ("not_started",):
             norm = "not_started"
         elif raw in ("in_progress",):
@@ -85,6 +93,7 @@ def parse_status_from_commit() -> Dict[int, str]:
             except ValueError:
                 pass
     return statuses
+
 
 def replace_table(readme_text: str, updates: Dict[int, str]) -> str:
     """
@@ -113,6 +122,7 @@ def replace_table(readme_text: str, updates: Dict[int, str]) -> str:
         lines[i] = new_line
     return "\n".join(lines) + ("\n" if not readme_text.endswith("\n") else "")
 
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--mode", choices=["json", "commit"], required=True)
@@ -140,7 +150,8 @@ def main():
     else:
         print("README already up to date.")
 
+
 if __name__ == "__main__":
-    main() 
+    main()
 
 ###

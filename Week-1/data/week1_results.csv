@@ -1,3 +1,4 @@
 timestamp,units,sex,age,weight_kg,height_cm,BMI,BMR_kcal,Water_L
 2025-08-12T02:31:43,metric,male,28,70.0,175.0,22.86,1707.0,2.45
 2025-08-12T12:09:43,metric,male,28,80.0,178.0,25.25,1855.4,2.8
+2025-08-12T13:05:09,imperial,female,30,35.38,5461.0,0.01,17563.0,1.24
