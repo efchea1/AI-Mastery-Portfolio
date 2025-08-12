@@ -31,7 +31,7 @@ This structured plan produces **real-world AI + data science projects** with **p
 <!-- PROGRESS_TABLE_START -->
 | Week | Focus | Status |
 |------|-------|--------|
- | 1 | Python Basics, Git, Environment Setup | ⬜ Not Started | 
+ | 1 | Python Basics, Git, Environment Setup | 🟨 In Progress | 
  | 2 | Python Functions, OOP, Testing | ⬜ Not Started | 
  | 3 | SQL Fundamentals | ⬜ Not Started | 
  | 4 | Supabase Basics + Math Refresh | ⬜ Not Started | 
