@@ -184,7 +184,7 @@ AI-Mastery-Portfolio/
 
 ## 🤝 How to Collaborate
 
-I welcome feedback, mentorship, and collaboration—especially from those working in AI for public health, ethics, or global resilience. Feel free to:
+I welcome feedback, mentorship, and collaboration, especially from those working in AI for public health, ethics, or global resilience. Feel free to:
 - Open issues for suggestions or improvements
 - Fork and contribute to specific projects
 - Reach out via LinkedIn or email for deeper collaboration
