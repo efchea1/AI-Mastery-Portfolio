@@ -125,6 +125,8 @@ This structured plan produces **real-world AI + data science projects** with **p
 
  ## 📅 Month 5 and forward – Advanced Optional Projects (Weeks 23–24)  
 **Goal:** Build responsible AI systems by using existing projects from the 22 weeks or design new advanced projects. This would be done based on my time and workload.
+| Week | Focus | Key Learning | Project | Dataset | Link |
+|------|-------|--------------|---------|---------|------|
  | 23 | Advanced Optional Project 1 | This would be done after completing the 22 weeks of the portfolio | — | — | ⬜ Not Started |
  | 24 | Advanced Optional Project 2 | This would be done after completing the 22 weeks of the portfolio| — | — | ⬜ Not Started |
 
