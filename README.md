@@ -12,12 +12,9 @@
 ## 👤 About Me
 
 I’m Emmanuel Fle Chea, a public health data scientist and AI builder specializing in ethical, transparent, and deployable systems that turn global health challenges into scalable solutions. My work bridges **technical innovation** with **societal impact**, especially in underserved communities, through:
-
-**Ethical AI Design** - fairness, explainability, and compliance (HIPAA, GDPR, FDA 21 CFR Part 11)
-
-**Production-Ready Engineering** - CI/CD pipelines, containerized deployments, secure APIs
-
-**Mission-Driven Collaboration** - cross-disciplinary teamwork aligned with health equity priorities
+- **Ethical AI Design**: Fairness, explainability, and compliance (HIPAA, GDPR, FDA 21 CFR Part 11)
+- **Production-Ready Engineering**: CI/CD pipelines, containerized deployments, secure APIs
+- **Mission-Driven Collaboration**: cross-disciplinary teamwork aligned with health equity priorities
 
 ## 🌍 Why This Portfolio Matters
 
