@@ -2,42 +2,38 @@
 
 **Building Ethical, Deployable AI for Global Health Impact**
 
-This portfolio chronicles my 24-week journey from concept to deployment, building real-world AI systems that tackle urgent public health challenges. Each project blends engineering rigor, MLOps fluency, and ethical data science, with a focus on underserved communities and global impact.
+24 weeks. 24 projects. One mission: Build production-grade AI systems that directly advance public health equity, from concept to deployment, using real-world datasets, rigorous MLOps practices, and ethical design principles.
 
 **Stack Highlights:**  
-![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)  
-![PyTorch](https://img.shields.io/badge/PyTorch-Framework-orange?logo=pytorch)  
-![LangChain](https://img.shields.io/badge/LangChain-LLM%20Framework-green)  
-![NLP](https://img.shields.io/badge/NLP-Transformers-purple)  
-![JAX](https://img.shields.io/badge/JAX-ML%20Library-orange)  
-![XLA](https://img.shields.io/badge/XLA-Accelerated%20Linear%20Algebra-yellow)  
-![CUDA](https://img.shields.io/badge/CUDA-GPU%20Programming-green?logo=nvidia)  
-![Supabase](https://img.shields.io/badge/Supabase-Backend-lightgreen?logo=supabase)  
-![SQL](https://img.shields.io/badge/SQL-Postgres-blue?logo=postgresql)  
-![Secure Pipeline](https://img.shields.io/badge/Secure%20Pipeline-HIPAA%2FGDPR%20Ready-red)  
-![Backend AI APIs](https://img.shields.io/badge/Backend%20AI%20APIs-FastAPI-blue)  
-![API Tests](https://img.shields.io/badge/API%20Tests-pytest-yellow)  
-![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-blue?logo=githubactions)  
-![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker)  
-![Portfolio](https://img.shields.io/badge/Portfolio-Building-success)  
-![Last Updated](https://img.shields.io/github/last-commit/efchea1/AI-Mastery-Portfolio)
+![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python) ![PyTorch](https://img.shields.io/badge/PyTorch-Framework-orange?logo=pytorch) ![LangChain](https://img.shields.io/badge/LangChain-LLM%20Framework-green) ![NLP](https://img.shields.io/badge/NLP-Transformers-purple) ![JAX](https://img.shields.io/badge/JAX-ML%20Library-orange) ![XLA](https://img.shields.io/badge/XLA-Accelerated%20Linear%20Algebra-yellow) ![CUDA](https://img.shields.io/badge/CUDA-GPU%20Programming-green?logo=nvidia) ![Supabase](https://img.shields.io/badge/Supabase-Backend-lightgreen?logo=supabase) ![SQL](https://img.shields.io/badge/SQL-Postgres-blue?logo=postgresql) ![Secure Pipeline](https://img.shields.io/badge/Secure%20Pipeline-HIPAA%2FGDPR%20Ready-red) ![Backend AI APIs](https://img.shields.io/badge/Backend%20AI%20APIs-FastAPI-blue) ![API Tests](https://img.shields.io/badge/API%20Tests-pytest-yellow) ![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-blue?logo=githubactions) ![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker) ![Portfolio](https://img.shields.io/badge/Portfolio-Building-success) ![Last Updated](https://img.shields.io/github/last-commit/efchea1/AI-Mastery-Portfolio)
 
-📅 **Start Date:** Monday, August 11, 2025  
-📅 **End Date:** Friday, January 26, 2026  
-⏱ **Time Commitment:** ~3 hrs/day, 5 days/week & ~4 hrs on the weekend 
+---
 
 ## 👤 About Me
 
-I'm Emmanuel Fle Chea, a public health data scientist and AI builder committed to designing ethical, deployable systems that advance global health equity. My work bridges technical innovation with societal impact, especially in underserved communities, through transparent documentation, real-world projects, and mission-driven collaboration
+I’m Emmanuel Fle Chea, a public health data scientist and AI builder specializing in ethical, transparent, and deployable systems that turn global health challenges into scalable solutions. My work bridges **technical innovation** with **societal impact**, especially in underserved communities, through:
+
+**Ethical AI Design** - fairness, explainability, and compliance (HIPAA, GDPR, FDA 21 CFR Part 11)
+
+**Production-Ready Engineering** - CI/CD pipelines, containerized deployments, secure APIs
+
+**Mission-Driven Collaboration** - cross-disciplinary teamwork aligned with health equity priorities
 
 ## 🌍 Why This Portfolio Matters
 
-This portfolio is more than technical training, it's a mission-driven journey to build AI systems that serve public health, equity, and global resilience. Each project is designed to be:
+This portfolio isn’t just technical training, it’s a mission-led engineering roadmap. Every project is built to be:
 - **Ethical**: Transparent, fair, and explainable
 - **Deployable**: Built with CI/CD, Docker, and real-world datasets
 - **Impactful**: Aligned with NIH, WHO, and national security priorities
 
-**By January 2026**, this portfolio supports my transition into AI and public health innovation roles, and lays the foundation for future research and leadership in ethical AI systems for global health.
+**By January 2026**, this repository will contain 20+ production-grade AI prototypes, each with:
+- Live demos and reproducible code
+- Public health impact documentation
+- End-to-end MLOps pipelines ready for deployment
+
+📅 **Start Date:** Monday, August 11, 2025  
+📅 **End Date:** Friday, January 26, 2026  
+⏱ **Time Commitment:** ~3 hrs/day, 5 days/week & ~4 hrs on the weekend 
 
 [![Notion Badge](https://img.shields.io/badge/Notion-Roadmap-black?logo=notion&logoColor=white)](https://www.notion.so/24985bb2682080cdb182d4fe204dd67a?v=24985bb2682080e7a3bd000c2f02da4c&source=copy_link)
 
@@ -52,12 +48,12 @@ This portfolio is more than technical training, it's a mission-driven journey to
 ---
 
 ## 🗺️ Visual Roadmap
-Month 1 → Foundations  
-Month 2 → Core AI + CI/CD  
-Month 3 → Advanced AI + Collaboration  
-Month 4 → Infrastructure + Compliance  
-Month 5 → Ethics + Portfolio  
-Optional → Advanced Projects
+**Month 1** → Foundations  
+**Month 2** → Core AI + CI/CD  
+**Month 3** → Advanced AI + Collaboration  
+**Month 4** → Infrastructure + Compliance  
+**Month 5** → Ethics + Portfolio  
+**Optional** → Advanced Projects
 
 ---
 
