@@ -15,7 +15,7 @@
 
 ## 🌍 Why This Portfolio Matters
 
-This portfolio is more than technical training—it's a mission-driven journey to build AI systems that serve public health, equity, and global resilience. Each project is designed to be:
+This portfolio is more than technical training, it's a mission-driven journey to build AI systems that serve public health, equity, and global resilience. Each project is designed to be:
 - **Ethical**: Transparent, fair, and explainable
 - **Deployable**: Built with CI/CD, Docker, and real-world datasets
 - **Impactful**: Aligned with NIH, WHO, and national security priorities
