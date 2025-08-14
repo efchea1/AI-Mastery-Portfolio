@@ -5,7 +5,14 @@
 24 weeks. 24 projects. One mission: Build production-grade AI systems that directly advance public health equity, from concept to deployment, using real-world datasets, rigorous MLOps practices, and ethical design principles.
 
 **Stack Highlights:**  
-![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python) ![PyTorch](https://img.shields.io/badge/PyTorch-Framework-orange?logo=pytorch) ![LangChain](https://img.shields.io/badge/LangChain-LLM%20Framework-green) ![NLP](https://img.shields.io/badge/NLP-Transformers-purple) ![JAX](https://img.shields.io/badge/JAX-ML%20Library-orange) ![XLA](https://img.shields.io/badge/XLA-Accelerated%20Linear%20Algebra-yellow) ![CUDA](https://img.shields.io/badge/CUDA-GPU%20Programming-green?logo=nvidia) ![Supabase](https://img.shields.io/badge/Supabase-Backend-lightgreen?logo=supabase) ![SQL](https://img.shields.io/badge/SQL-Postgres-blue?logo=postgresql) ![Secure Pipeline](https://img.shields.io/badge/Secure%20Pipeline-HIPAA%2FGDPR%20Ready-red) ![Backend AI APIs](https://img.shields.io/badge/Backend%20AI%20APIs-FastAPI-blue) ![API Tests](https://img.shields.io/badge/API%20Tests-pytest-yellow) ![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-blue?logo=githubactions) ![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker) ![Portfolio](https://img.shields.io/badge/Portfolio-Building-success) ![Last Updated](https://img.shields.io/github/last-commit/efchea1/AI-Mastery-Portfolio)
+**Core AI:**  
+![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python) ![PyTorch](https://img.shields.io/badge/PyTorch-Framework-orange?logo=pytorch) ![LangChain](https://img.shields.io/badge/LangChain-LLM%20Framework-green) ![NLP](https://img.shields.io/badge/NLP-Transformers-purple) ![JAX](https://img.shields.io/badge/JAX-ML%20Library-orange) ![XLA](https://img.shields.io/badge/XLA-Accelerated%20Linear%20Algebra-yellow) ![CUDA](https://img.shields.io/badge/CUDA-GPU%20Programming-green?logo=nvidia)  
+
+**Backend & Infra:**  
+![Supabase](https://img.shields.io/badge/Supabase-Backend-lightgreen?logo=supabase) ![SQL](https://img.shields.io/badge/SQL-Postgres-blue?logo=postgresql) ![Backend AI APIs](https://img.shields.io/badge/Backend%20AI%20APIs-FastAPI-blue) ![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker)  
+
+**MLOps & Compliance:**  
+![Secure Pipeline](https://img.shields.io/badge/Secure%20Pipeline-HIPAA%2FGDPR%20Ready-red) ![API Tests](https://img.shields.io/badge/API%20Tests-pytest-yellow) ![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-blue?logo=githubactions) ![Portfolio](https://img.shields.io/badge/Portfolio-Building-success) ![Last Updated](https://img.shields.io/github/last-commit/efchea1/AI-Mastery-Portfolio)
 
 ---
 
