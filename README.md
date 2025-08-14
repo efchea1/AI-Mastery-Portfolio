@@ -13,6 +13,10 @@
 📅 **End Date:** Friday, January 26, 2026  
 ⏱ **Time Commitment:** ~3 hrs/day, 5 days/week & ~4 hrs on the weekend 
 
+## 👤 About Me
+
+I'm Emmanuel Fle Chea, a public health data scientist and AI builder focused on ethical, deployable AI systems for global health. My work bridges technical innovation with societal impact—especially in underserved communities.
+
 ## 🌍 Why This Portfolio Matters
 
 This portfolio is more than technical training, it's a mission-driven journey to build AI systems that serve public health, equity, and global resilience. Each project is designed to be:
@@ -31,6 +35,16 @@ This portfolio is more than technical training, it's a mission-driven journey to
 [Week-7](Week-7) · [Week-8](Week-8) · [Week-9](Week-9) · [Week-10](Week-10) · [Week-11](Week-11) · [Week-12](Week-12) ·
 [Week-13](Week-13) · [Week-14](Week-14) · [Week-15](Week-15) · [Week-16](Week-16) · [Week-17](Week-17) · [Week-18](Week-18) ·
 [Week-19](Week-19) · [Week-20](Week-20) · [Week-21](Week-21) · [Week-22](Week-22) · [Week-23](Week-23) · [Week-24](Week-24)
+
+---
+
+## 🗺️ Visual Roadmap
+Month 1 → Foundations  
+Month 2 → Core AI + CI/CD  
+Month 3 → Advanced AI + Collaboration  
+Month 4 → Infrastructure + Compliance  
+Month 5 → Ethics + Portfolio  
+Optional → Advanced Projects
 
 ---
 
@@ -167,6 +181,13 @@ AI-Mastery-Portfolio/
 2) Read that week’s `README.md` for goals/resources.  
 3) Explore `notebooks/` and `src/` for code.  
 4) Keep datasets in `data/` (excluded from Git).
+
+## 🤝 How to Collaborate
+
+I welcome feedback, mentorship, and collaboration—especially from those working in AI for public health, ethics, or global resilience. Feel free to:
+- Open issues for suggestions or improvements
+- Fork and contribute to specific projects
+- Reach out via LinkedIn or email for deeper collaboration
 
 ## 🤝 Connect
 - **LinkedIn:** https://linkedin.com/in/emmanuel-fle-chea  
