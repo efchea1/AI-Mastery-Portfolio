@@ -1,9 +1,21 @@
 # 🚀 24-Week AI Mastery & Portfolio (Aug 2025 → Jan 2026)
 
-**Upgraded for Job Readiness**  
+**Building Ethical, Deployable AI for Global Health Impact**
+This portfolio chronicles my 24-week journey from concept to deployment—building real-world AI systems that tackle urgent public health challenges. Each project blends engineering rigor, MLOps fluency, and ethical data science, with a focus on underserved communities and global impact.
+
+**Stack Highlights:**  
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)  
 ![PyTorch](https://img.shields.io/badge/PyTorch-Framework-orange?logo=pytorch)  
 ![LangChain](https://img.shields.io/badge/LangChain-LLM%20Framework-green)  
+![NLP](https://img.shields.io/badge/NLP-Transformers-purple)  
+![JAX](https://img.shields.io/badge/JAX-ML%20Library-orange)  
+![XLA](https://img.shields.io/badge/XLA-Accelerated%20Linear%20Algebra-yellow)  
+![CUDA](https://img.shields.io/badge/CUDA-GPU%20Programming-green?logo=nvidia)  
+![Supabase](https://img.shields.io/badge/Supabase-Backend-lightgreen?logo=supabase)  
+![SQL](https://img.shields.io/badge/SQL-Postgres-blue?logo=postgresql)  
+![Secure Pipeline](https://img.shields.io/badge/Secure%20Pipeline-HIPAA%2FGDPR%20Ready-red)  
+![Backend AI APIs](https://img.shields.io/badge/Backend%20AI%20APIs-FastAPI-blue)  
+![API Tests](https://img.shields.io/badge/API%20Tests-pytest-yellow)  
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-blue?logo=githubactions)  
 ![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker)  
 ![Portfolio](https://img.shields.io/badge/Portfolio-Building-success)  
