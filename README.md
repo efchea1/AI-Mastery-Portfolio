@@ -54,7 +54,7 @@ This structured plan produces **real-world AI + data science projects** with **p
  | 21 | Portfolio Website | ⬜ Not Started | 
  | 22 | Outreach & Applications | ⬜ Not Started | 
  | 23 | Advanced Optional Project 1 | ⬜ Not Started |
- | 22 | Advanced Optional Project 2 | ⬜ Not Started |
+ | 24 | Advanced Optional Project 2 | ⬜ Not Started |
 
 **Legend:** ✅ Completed 🟨 In Progress ⬜ Not Started
 <!-- PROGRESS_TABLE_END -->
