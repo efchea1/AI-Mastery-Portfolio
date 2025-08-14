@@ -127,8 +127,8 @@ This structured plan produces **real-world AI + data science projects** with **p
 **Goal:** Build responsible AI systems by using existing projects from the 22 weeks or design new advanced projects. This would be done based on my time and workload.
 | Week | Focus | Key Learning | Project | Dataset | Link |
 |------|-------|--------------|---------|---------|------|
- | 23 | Advanced Optional Project 1 | This would be done after completing the 22 weeks of the portfolio | — | — | ⬜ Not Started |
- | 24 | Advanced Optional Project 2 | This would be done after completing the 22 weeks of the portfolio| — | — | ⬜ Not Started |
+ | 23 | Advanced Optional Project 1: Post-training alignment and scientific reasoning | LangChain agents, retrieval-augmented generation, explainability | Build an evaluator that checks LLM outputs against CDC/WHO datasets and flags misinformation | WHO COVID-19 FAQs, CDC health guidelines | ⬜ Not Started |
+ | 24 | Advanced Optional Project 2: Fairness, simulation, and policy modeling | Pandas, causal inference, fairness metrics, visualization | Simulate health outcomes across demographics using real data and audit for bias | CDC PLACES, NHANES, synthetic EHR | ⬜ Not Started |
 
 ---
 
