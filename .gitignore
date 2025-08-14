@@ -235,3 +235,11 @@ data/**/*.xlsx
 data/**/*.json
 !data/**/README.md
 !data/**/.gitkeep
+
+# big/binary stuff
+*.exe
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.whl
