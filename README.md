@@ -15,7 +15,7 @@
 
 ## 👤 About Me
 
-I'm Emmanuel Fle Chea, a public health data scientist and AI builder focused on ethical, deployable AI systems for global health. My work bridges technical innovation with societal impact—especially in underserved communities.
+I'm Emmanuel Fle Chea, a public health data scientist and AI builder committed to designing ethical, deployable systems that advance global health equity. My work bridges technical innovation with societal impact, especially in underserved communities, through transparent documentation, real-world projects, and mission-driven collaboration
 
 ## 🌍 Why This Portfolio Matters
 
