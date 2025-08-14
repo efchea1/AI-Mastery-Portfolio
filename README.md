@@ -38,7 +38,7 @@ This portfolio isn’t just technical training, it’s a mission-led engineering
 
 ---
 
-## 🗓️ Schedule & Time Commitment
+## 🗓️ Schedule & ⏱ Time Commitment
 
 📅 **Start Date:** Monday, August 11, 2025  
 📅 **End Date:** Monday, January 26, 2026  
