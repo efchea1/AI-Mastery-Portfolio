@@ -4,7 +4,7 @@
 This portfolio chronicles my 24-week journey from concept to deployment—building real-world AI systems that tackle urgent public health challenges. Each project blends engineering rigor, MLOps fluency, and ethical data science, with a focus on underserved communities and global impact.
 
 **Stack Highlights:**  
-![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)  
+![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)  
 ![PyTorch](https://img.shields.io/badge/PyTorch-Framework-orange?logo=pytorch)  
 ![LangChain](https://img.shields.io/badge/LangChain-LLM%20Framework-green)  
 ![NLP](https://img.shields.io/badge/NLP-Transformers-purple)  
