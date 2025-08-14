@@ -36,9 +36,13 @@ This portfolio isn’t just technical training, it’s a mission-led engineering
 - Public health impact documentation
 - End-to-end MLOps pipelines ready for deployment
 
+---
+
+## 🗓️ Schedule & Time Commitment
+
 📅 **Start Date:** Monday, August 11, 2025  
-📅 **End Date:** Friday, January 26, 2026  
-⏱ **Time Commitment:** ~3 hrs/day, 5 days/week & ~4 hrs on the weekend 
+📅 **End Date:** Monday, January 26, 2026  
+⏱ **Time Commitment:** ~3 hrs/day, 5 days/week + ~4 hrs on weekends
 
 [![Notion Badge](https://img.shields.io/badge/Notion-Roadmap-black?logo=notion&logoColor=white)](https://www.notion.so/24985bb2682080cdb182d4fe204dd67a?v=24985bb2682080e7a3bd000c2f02da4c&source=copy_link)
 
