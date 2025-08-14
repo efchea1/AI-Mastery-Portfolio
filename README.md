@@ -121,6 +121,7 @@ This structured plan produces **real-world AI + data science projects** with **p
  | 21 | Portfolio Website | GitHub Pages / personal site | Live project demos | — | ⬜ Not Started | 
  | 22 | Outreach & Applications | LinkedIn + GitHub publishing | — | — | ⬜ Not Started | 
 
+--- 
 
  ## 📅 Month 5 and forward – Advanced Optional Projects (Weeks 23–24)  
 **Goal:** Build responsible AI systems by using existing projects from the 22 weeks or design new advanced projects. This would be done based on my time and workload.
