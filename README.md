@@ -53,6 +53,8 @@ This structured plan produces **real-world AI + data science projects** with **p
  | 20 | Final Project Polish | ⬜ Not Started | 
  | 21 | Portfolio Website | ⬜ Not Started | 
  | 22 | Outreach & Applications | ⬜ Not Started | 
+ | 23 | Advanced Optional Project 1 | ⬜ Not Started |
+ | 22 | Advanced Optional Project 2 | ⬜ Not Started |
 
 **Legend:** ✅ Completed 🟨 In Progress ⬜ Not Started
 <!-- PROGRESS_TABLE_END -->
@@ -118,6 +120,12 @@ This structured plan produces **real-world AI + data science projects** with **p
  | 20 | Final Project Polish | Documentation, benchmarking | — | — | ⬜ Not Started | 
  | 21 | Portfolio Website | GitHub Pages / personal site | Live project demos | — | ⬜ Not Started | 
  | 22 | Outreach & Applications | LinkedIn + GitHub publishing | — | — | ⬜ Not Started | 
+
+
+ ## 📅 Month 5 and forward – Advanced Optional Projects (Weeks 23–24)  
+**Goal:** Build responsible AI systems by using existing projects from the 22 weeks or design new advanced projects. This would be done based on my time and workload.
+ | 23 | Advanced Optional Project 1 | This would be done after completing the 22 weeks of the portfolio | — | — | ⬜ Not Started |
+ | 24 | Advanced Optional Project 2 | This would be done after completing the 22 weeks of the portfolio| — | — | ⬜ Not Started |
 
 ---
 
