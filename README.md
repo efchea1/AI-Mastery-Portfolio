@@ -13,7 +13,14 @@
 📅 **End Date:** Friday, January 26, 2026  
 ⏱ **Time Commitment:** ~3 hrs/day, 5 days/week & ~4 hrs on the weekend 
 
-This structured plan produces **real-world AI + data science projects** with **production-grade code**. 
+## 🌍 Why This Portfolio Matters
+
+This portfolio is more than technical training—it's a mission-driven journey to build AI systems that serve public health, equity, and global resilience. Each project is designed to be:
+- **Ethical**: Transparent, fair, and explainable
+- **Deployable**: Built with CI/CD, Docker, and real-world datasets
+- **Impactful**: Aligned with NIH, WHO, and national security priorities
+
+**By January 2026**, this portfolio supports my transition into AI and public health innovation roles, and lays the foundation for future research and leadership in ethical AI systems for global health.
 
 [![Notion Badge](https://img.shields.io/badge/Notion-Roadmap-black?logo=notion&logoColor=white)](https://www.notion.so/24985bb2682080cdb182d4fe204dd67a?v=24985bb2682080e7a3bd000c2f02da4c&source=copy_link)
 
