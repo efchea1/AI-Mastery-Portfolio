@@ -1,6 +1,7 @@
 # 🚀 24-Week AI Mastery & Portfolio (Aug 2025 → Jan 2026)
 
 **Building Ethical, Deployable AI for Global Health Impact**
+
 This portfolio chronicles my 24-week journey from concept to deployment—building real-world AI systems that tackle urgent public health challenges. Each project blends engineering rigor, MLOps fluency, and ethical data science, with a focus on underserved communities and global impact.
 
 **Stack Highlights:**  
