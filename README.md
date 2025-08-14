@@ -13,7 +13,7 @@
 📅 **End Date:** Friday, January 26, 2026  
 ⏱ **Time Commitment:** ~3 hrs/day, 5 days/week & ~4 hrs on the weekend 
 
-This structured plan produces **real-world AI + data science projects** with **production-grade code** while preparing you for **both startup and enterprise hiring**. 
+This structured plan produces **real-world AI + data science projects** with **production-grade code**. 
 
 [![Notion Badge](https://img.shields.io/badge/Notion-Roadmap-black?logo=notion&logoColor=white)](https://www.notion.so/24985bb2682080cdb182d4fe204dd67a?v=24985bb2682080e7a3bd000c2f02da4c&source=copy_link)
 
