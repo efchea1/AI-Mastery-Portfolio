@@ -213,4 +213,4 @@ I welcome feedback, mentorship, and collaboration, especially from those working
 - **Email:** emmanuelf.chea@gmail.com
 
 ### 📜 License
-MIT — see [LICENSE](LICENSE).
+Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) — see [LICENSE](LICENSE).
