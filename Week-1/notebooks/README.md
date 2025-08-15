@@ -32,3 +32,7 @@ pre-commit install
 ---
 
 🔄 **Next Steps:** Moving into [Week 2](../Week-2) to expand these concepts into **functions, OOP, file I/O, and automated testing** using `pytest`.
+
+---
+
+📜 Licensed under CC BY-NC 4.0 — see [../LICENSE](../LICENSE) for details.
