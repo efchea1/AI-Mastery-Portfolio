@@ -22,3 +22,10 @@
 # from repo root
 python Week-1/src/health_metrics.py
 # then open the notebook and Run All 
+
+---
+## 📄 License
+
+This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
+
+© 2025 Emmanuel Fle Chea. See the LICENSE file for full terms and usage guidelines.
